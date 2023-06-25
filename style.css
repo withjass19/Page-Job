@@ -1,0 +1,320 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    display: flex;
+}
+
+
+
+
+
+/* Navigation Bar CSS Start */
+.panel{
+    width: 15vw;
+    height: 760px;
+    background-color: #D6A553;
+    /* background-color: antiquewhite; */
+    padding: 1%;
+    position: fixed;
+}
+.panel h1{
+    /* background-color: aquamarine; */
+    font-size: 2.5em;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav{
+    /* background-color: blue; */
+    padding: 10%;
+    margin-top: 10rem;
+}
+.panel a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    /* background-color: aqua; */
+    margin-top: 10%;
+    padding: 20px;
+    font-size: 1.04em;
+    font-weight: 600;
+}
+/* Navigation Bar CSS End */
+
+
+
+
+/* Pages CSS Start*/
+main{
+    width: 100vw;
+    height: 100%;
+    /* background-color: aqua; */
+}
+section{
+    width: 100%;
+    height: 760px;
+    /* background-color: aquamarine; */
+    display: flex;
+}
+.side-container{
+    width: 17vw;
+    height: 3105px;
+    background-color: #D6A553;
+}
+section h2{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(224, 171, 100); */
+    background-color: #D6A553;
+    font-size: 1.8em;
+}
+section .container{
+    width: 100%;
+    height: 100%;
+    /* background-color: blueviolet; */
+    display: flex;
+}
+
+
+
+
+
+
+/* Home Page CSS Start*/
+.home .left-part{
+    width: 50%;
+    height: 91%;
+    /* background-color: aqua; */
+}
+.home .left-part h3{
+    font-size: 2.7em;
+    margin-top: 28%;
+    padding: 3% 10% 2% 20%;
+    /* background-color: rgb(67, 171, 171); */
+    font-weight: 700;
+}
+.home .left-part p{
+    font-size: .9em;
+    padding: 1% 10% 0% 20%;
+    /* background-color: aquamarine; */
+    font-weight: 400;
+    letter-spacing: 0.11em;
+    word-spacing: 0.2em;
+}
+.home .left-part button{
+    /* background-color: rgb(52, 163, 163); */
+    width: 210px;
+    height: 50px;
+    margin-left: 20%;
+    margin-top: 10%;
+    font-size: 1.12em;
+    letter-spacing: 0.11em;
+    word-spacing: 0.2em;
+    font-weight: 500;
+    border: 1.7px solid black;
+}
+.home .right-part{
+    width: 50%;
+    height: 91%;
+    /* background-color: rgb(53, 153, 153); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home .right-part img{
+    height: 40%;
+}
+/* Home Page CSS End*/
+
+
+
+
+/* Contact Page CSS Start*/
+.Contact .left-part{
+    width: 50%;
+    height: 91%;
+    /* background-color: aqua; */
+}
+.Contact .left-part h3{
+    font-size: 2.3em;
+    margin-top: 18%;
+    margin-left: 20%;
+    padding: 13% 10% 2% 10%;
+    /* background-color: rgb(67, 171, 171); */
+    background-color: #D6A553;
+    font-weight: 700;
+    border-radius: 40px 0 0 0;
+}
+.Contact .left-part p{
+    font-size: .8em;
+    padding: 3% 13% 2% 10%;
+    margin-left: 20%;
+    /* background-color: aquamarine; */
+    background-color: #D6A553;
+    font-weight: 400;
+    letter-spacing: 0.11em;
+    word-spacing: 0.2em;
+}
+.Contact .left-part p:nth-child(3){
+    padding-top: 5%;
+    /* background-color: aquamarine */
+}
+.Contact .left-part p:nth-child(4){
+    padding-top: 5%;
+    /* background-color: #D6A553; */
+}
+.Contact .left-part p:nth-child(5){
+    padding-top: 0%;
+    padding-bottom: 10%;
+    /* background-color: #ffae23; */
+    border-radius: 0px 0 0 40px;
+}
+.Contact .right-part{
+    width: 50%;
+    height: 91%;
+    /* background-color: rgb(76, 151, 151); */
+}
+.Contact .right-part form{
+    margin-top: 18%;
+    padding: 5% 10% 5.5% 0%;
+    /* background-color: antiquewhite; */
+    background-color: #D6A553;
+    margin-right: 20%;
+    border-radius: 0px 40px 40px 0px;
+}
+.Contact .right-part form input{
+    width: 400px;
+    /* height: 20px; */
+    margin-top: 17px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    display: block;
+}
+.Contact .right-part form textarea{
+    display: block;
+    margin-top: 15px;
+    padding-left: 20px;
+    padding-top: 12px;
+    padding-bottom: 10px;
+    border: none;
+}
+.Contact .right-part form button{
+    display: block;
+    width: 150px;
+    margin-top: 27px;
+    padding: 3%;
+    border: none;
+    font-weight: 600;
+}
+/* Contact Page CSS End*/
+
+
+
+
+
+/* Information Page CSS Start*/
+.Information{
+    display: block;
+}
+.Information .left-part{
+    width: 50%;
+    height: 91%;
+    /* background-color: rgb(76, 151, 151); */
+}
+.Information .left-part .head{
+    font-size: 4em;
+    margin-top: 8%;
+    margin-left: 25%;
+    position: absolute;
+    /* background-color: rgb(67, 171, 171); */
+    font-weight: 600;
+    letter-spacing: 0.3em;
+}
+.Information .left-part .para{
+    font-size: .9em;
+    margin-top: 40%;
+    margin-left: 15%;
+    margin-right: 8%;
+    padding: 3%;
+    /* background-color: rgb(67, 171, 171); */
+    font-weight: 400;
+    letter-spacing: 0.2em;
+    word-spacing: .3em;
+    line-height: 1.25em;
+}
+.Information .right-part{
+    width: 50%;
+    height: 91%;
+    /* background-color: rgb(76, 151, 151); */
+}
+.Information .right-part img{
+    /* width: 50%; */
+    margin-top: 10%;
+    margin-left: 8%;
+    height: 70%;
+    /* background-color: rgb(76, 151, 151); */
+}
+/* Information Page CSS End*/
+
+
+
+
+
+/* Guide Page CSS Start*/
+.Guide{
+    display: block;
+}
+.Guide .left-part{
+    width: 50%;
+    height: 750px;
+    /* background-color: aqua; */
+}
+.Guide .left-part img{
+    /* width: 50%; */
+    /* margin-top: 10%;
+    margin-left: 18%; */
+    height: 60%;
+    margin-top: 30%;
+    margin-left: 30%;
+    /* background-color: rgb(76, 151, 151); */
+}
+.Guide .right-part{
+    width: 50%;
+    height: 750px;
+    /* background-color: rgb(76, 151, 151); */
+}
+.Guide .right-part .head{
+    font-size: 3em;
+    margin-top: 8%;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    margin-left: -20%;
+}
+.Guide .right-part .para{
+    font-size: .9em;
+    margin-top: 10%;
+    margin-left: 5%;
+    text-align: center;
+    margin-right: 20%;
+        /* background-color: rgb(67, 171, 171); */
+    /* background-color: #D6A553; */
+    font-weight: 400;
+    letter-spacing: 0.2em;
+    word-spacing: .3em;
+    line-height: 1.25em;
+}
+/* Guide Page CSS End*/
+
+/* Pages CSS End*/
